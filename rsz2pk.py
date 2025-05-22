@@ -46,7 +46,7 @@ def process_addresses(file_path):
             print(f"No private key found for address {address}")
 
 # Specify the file path relative to the script's directory
-file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'addys.txt')
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'file')
 
 # Then pass the file_path variable to the process_addresses function
 process_addresses(file_path)

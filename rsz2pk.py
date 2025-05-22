@@ -35,7 +35,7 @@ def recover_private_key(bitcoin_address):
                     signatures[r_value] = (s_value, z_value)
 
 def process_addresses(file_path):
-    with open(filter,txt, 'r') as file:
+    with open(filter, 'r') as file:
         addresses = file.read().splitlines()
     
     for address in addresses:
@@ -46,7 +46,7 @@ def process_addresses(file_path):
             print(f"No private key found for address {address}")
 
 # Specify the file path relative to the script's directory
-file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'filter,txt')
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'filter,')
 
 # Then pass the file_path variable to the process_addresses function
-process_addresses(filter,txt)
+process_addresses(filter,)

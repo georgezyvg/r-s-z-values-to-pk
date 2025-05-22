@@ -34,8 +34,8 @@ def recover_private_key(bitcoin_address):
                 else:
                     signatures[r_value] = (s_value, z_value)
 
-def process_addresses(file_path):
-    with open(file_path, 'r') as file:
+def process_addresses(addys.txt):
+    with open(addys.txt, 'r') as file:
         addresses = file.read().splitlines()
     
     for address in addresses:

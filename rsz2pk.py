@@ -49,4 +49,4 @@ def process_addresses(file_path):
 file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'file')
 
 # Then pass the file_path variable to the process_addresses function
-process_addresses(file_path)
+process_addresses(file)
